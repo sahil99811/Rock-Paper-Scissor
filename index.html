@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Gruppo&family=Inter:wght@300;400;500&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                ROCK
+                <br>
+                PAPER
+                <br>
+                SCISSORS
+            </h1>
+            <div class="score">
+                <div class="score-box">
+                    <h2>
+                        YOUR
+                        <br>
+                        SCORE
+                    </h2>
+                    <p id="your-score">0</p>
+                </div>
+                <div class="score-box">
+                    <h2>
+                        COMPUTER
+                        <br>
+                        SCORE
+                    </h2>
+                    <p id="computer-score">0</p>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="game-option">
+                <div class="upper-box">
+                    <div class="box-1 box">
+                        <img src="./assets/rock.png" class="option" data-value="rock">
+                    </div>
+                    <div class="box-2 line-box"></div>
+                    <div class="box-3 box">
+                        <img src="./assets/scissor.png" data-value="scissor" class="option">
+                    </div>
+                </div>
+                <div class="lower-box">
+                    <div class="box-4 line-box"></div>
+                    <div class="box-5 box">
+                        <img src="./assets/paper.png" data-value="paper" class="option">
+                    </div>
+                    <div class="box-6 line-box"></div>
+                </div>
+            </div>
+            <div class="winning-option">
+                <div class="you-picked">
+                    <p>YOU PICKED</p>
+                    <div class="you-pickedBox box">
+                        <img src="" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="winning-output">
+                    <p class="winningMessage"></p>
+                    <p class="commonMessage">AGAINST PC</p>
+                    <button class="play-again">PLAY AGAIN</button>
+                </div>
+                <div class="pc-picked">
+                    <p>PC PICKED</p>
+                    <div class="pc-pickedBox box">
+                        <img src="" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section class="section">
+            <div id="game-rule" class="hidden">
+                <button id="close-rule-button">
+                    <img src="./assets/cross.png" alt="close-rule-logo" class="close-rule-logo">
+                </button>
+                <h1 class="rule-header">Game Rules</h1>
+                <ul class="rule-list">
+                    <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                    <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper,
+                        scissors.”</li>
+                    <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                    <li>If both players lay down the same hand, each player lays down another hand</li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <button class="gameRules-button">RULES</button>
+            <button class="next-button">NEXT</button>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</html>

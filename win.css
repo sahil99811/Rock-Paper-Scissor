@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8CC461;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+}
+footer>button{
+    width: 8rem;
+    height: 2.5rem;
+    border:2px solid #FFFFFF;
+    border-radius: 9px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #8CC461;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.vectory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3px;
+}
+.image-container {
+    position: relative;
+    margin-top:30px
+}
+
+.overlay-image {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.vectory>h1{
+    font-size: 75px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #FFFFFF;
+}
+.vectory>p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    color: #FFFFFF;
+}
+
+.vectory>button{
+    width: 10rem;
+    height: 2.5rem;
+    border:2px solid #FFFFFF;
+    border-radius: 9px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: 
+    #6B6B6B;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#game-rule {
+    width: 270px;
+    height: 290px;
+    border: 7px solid rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    background: rgba(0, 68, 41, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 5px;
+    float: right;
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    display: none;
+}
+
+.rule-header {
+    background: rgba(0, 68, 41, 1);
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+ul {
+    list-style-image: url(./assets/list-square.png);
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 68, 41, 1);
+}
+
+.rule-list>li {
+    background-color: rgba(0, 68, 41, 1);
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    margin-right: 5px;
+    margin: 10px 0px;
+}
+
+
+#close-rule-button {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    float:right;
+    top: -40px;
+    right: -10px;
+    cursor: pointer;
+}
+

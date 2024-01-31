@@ -13,11 +13,11 @@
     z-index: 0;
 }
 .header{
-    width: 55rem;
-    height:9rem ;
+    width: 1000px;
+    height:130px ;
     display: flex;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-bottom: 0px;
     justify-content: space-between;
     align-items: center;
@@ -28,38 +28,38 @@
 }
 .header>h1{
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    line-height: 3rem;
+    line-height: 40px;
 }
 .score{
     display: flex;
-    gap:2rem ;
+    gap:25px ;
     
 }
 .score-box{
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    width:8rem;
-    height: 8rem;
+    width:120px;
+    height: 120px;
     border-radius: 9px;
-    padding: 3px;
+    padding: 8px;
 }
 .score-box>h2{
     font-family: 'Roboto',sans-serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 18px;
     color: #656565;
     text-align: center;
-    line-height: 1.5rem;
+    line-height: 18px;
 }
 .score-box>p{
   color: #252525;
   font-family: 'Roboto',sans-serif;
   font-weight: 700px;
-  font-size: 4.5rem;
+  font-size: 70px;
   text-align: center;
 }
 
@@ -69,18 +69,18 @@
     right: 0;
     display: flex;
     justify-content: flex-end; 
-    gap: 2rem;
-    margin-bottom: 1rem;
-    margin-right: 1.5rem;
+    gap: 25px;
+    margin-bottom: 12px;
+    margin-right: 18px;
 }
 
 .footer>button{
-    width: 8rem;
-    height: 2.5rem;
+    width: 120px;
+    height: 40px;
     border:2px solid #FFFFFF;
     border-radius: 9px;
     font-family: 'Roboto',sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 600;
     background-color: #8CC461;
     color: #FFFFFF;
@@ -93,8 +93,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    margin-top: 2.5rem;
+    gap: 10px;
+    margin-top: 25px;
 }
 .upper-box{
     display: flex;
@@ -104,8 +104,8 @@
     gap: 0px;
 }
 .box{
-    width: 10rem;
-    height: 10rem;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -117,48 +117,48 @@
     cursor: pointer;
 }
 .box-1{
-    border:20px solid #0074B6 ;
+    border:16px solid #0074B6 ;
     
 }
 .line-box{
     
-    height:1.2rem ;
+    height:15px ;
     background-color:#000000 ;
     opacity: 64%;
     z-index: 1;
 }
 .box-2{
-    width:6rem ;
+    width:75px ;
     margin:auto 0;
 }
 .box-3{
-    border: 20px solid #BD00FF;
+    border: 16px solid #BD00FF;
 }
 .box-4{
-    width:10rem;
+    width:120px;
    transform: rotate(45deg);
-   margin-right: -4rem;
+   margin-right: -50px;
 }
 .box-5{
-    border: 20px solid #FFA943;
+    border: 16px solid #FFA943;
 }
 .box-6{
-    width:10rem;
+    width:120px;
     transform: rotate(-45deg);
-    margin-left: -4rem;
+    margin-left: -50px;
 }
 .winning-option{
     display: none;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .you-pickedBox{
-    border: 20px solid #BD00FF;
+    border: 16px solid ;
 }
 .pc-pickedBox{
-    border: 20px solid #FFA943;
+    border: 16px solid ;
 }
 .you-picked,.pc-picked{
     display: flex;

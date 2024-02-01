@@ -36,6 +36,7 @@ footer>button{
     justify-content: center;
     align-items: center;
     row-gap: 3px;
+    height: 450px;
 }
 .image-container {
     position: relative;
@@ -62,12 +63,12 @@ footer>button{
 }
 
 .vectory>button{
-    width: 10rem;
-    height: 2.5rem;
+    width: 150px;
+    height: 100px;;
     border:2px solid #FFFFFF;
     border-radius: 9px;
     font-family: 'Roboto',sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 600;
     background-color: #FFFFFF;
     color: 

@@ -49,6 +49,7 @@ function handleGameOutcome() {
     } else {
         $(".winningMessage").text("YOU LOST");
         $(".play-again").text("Play Again");
+        $(".next-button").css("display", "none");
         computerScore += 1;
         $(".pc-pickedBox").addClass("animation");
     }
